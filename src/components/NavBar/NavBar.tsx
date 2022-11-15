@@ -22,10 +22,10 @@ function NavBar() {
 			</div>
 			<div className='cart-icon-container'>
 				<div className='nav-link'>
-					<NavLink to='/login'>Login</NavLink>
+					<NavLink to='/login'>Log in</NavLink>
 				</div>
 				<div className='nav-link'>
-					<NavLink to='/signup'>SignUp</NavLink>
+					<NavLink to='/signup'>Sign Up</NavLink>
 				</div>
 				{cartQuantity > 0 && (
 					<button className='cart-icon' onClick={openCart}>
