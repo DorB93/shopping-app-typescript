@@ -5,6 +5,8 @@ import Store from "../pages/Store";
 import About from "../pages/About";
 import NavBar from "./NavBar/NavBar";
 import { CartProvider } from "../contexts/CartContext";
+import Login from "../pages/Login";
+import Signup from "../pages/Signup";
 
 function App() {
 	return (
@@ -13,9 +15,10 @@ function App() {
 				<NavBar />
 				<div className='App-container'>
 					<Routes>
-						<Route path='/' element={<Home />}></Route>
-						<Route path='/store' element={<Store />}></Route>
+						<Route path='/' element={<Store />}></Route>
 						<Route path='/about' element={<About />}></Route>
+						<Route path='/login' element={<Login />}></Route>
+						<Route path='/signup' element={<Signup />}></Route>
 					</Routes>
 				</div>
 			</CartProvider>

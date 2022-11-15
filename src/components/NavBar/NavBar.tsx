@@ -11,11 +11,11 @@ function NavBar() {
 		<div className='container'>
 			<div className='nav-container'>
 				<div className='nav-link'>
-					<NavLink to='/'>Home</NavLink>
+					<NavLink to='/'>
+						<img className='logo' src='/logo.png' alt='logo' />
+					</NavLink>
 				</div>
-				<div className='nav-link'>
-					<NavLink to='/store'>Store</NavLink>
-				</div>
+
 				<div className='nav-link'>
 					<NavLink to='/about'>About</NavLink>
 				</div>
