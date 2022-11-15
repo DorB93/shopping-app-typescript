@@ -5,7 +5,7 @@ import Store from "../pages/Store";
 import About from "../pages/About";
 import NavBar from "./NavBar/NavBar";
 import { CartProvider } from "../contexts/CartContext";
-import { CategoryProvider } from "../contexts/categoryContext";
+import { CategoryProvider } from "../contexts/CategoryContext";
 function App() {
 	return (
 		<>
