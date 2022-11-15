@@ -1,6 +1,6 @@
 import React from "react";
 import "./FilterOption.css";
-import { useCategory } from "../../contexts/categoryContext";
+import { useCategory } from "../../contexts/CategoryContext";
 
 type FilterProps = {
 	title: string;

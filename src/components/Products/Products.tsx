@@ -2,7 +2,7 @@ import React from "react";
 import Product from "./Product";
 import useProducts, { ProductCl } from "../../hooks/useProducts";
 import "./Products.css";
-import { useCategory } from "../../contexts/categoryContext";
+import { useCategory } from "../../contexts/CategoryContext";
 
 function Products() {
 	const { category } = useCategory();
