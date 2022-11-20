@@ -1,4 +1,19 @@
+.head-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .filter-bar-container {
 	width: 100%;
 	display: flex;
+}
+.theme-container {
+	display: flex;
+	justify-content: flex-end;
+	gap: 5px;
+}
+
+.theme-container select {
+	height: 25px;
+	padding: 2px;
 }
