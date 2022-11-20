@@ -1,4 +1,10 @@
-import React, { useState, ReactNode, createContext, useContext } from "react";
+import React, {
+	useReducer,
+	useState,
+	ReactNode,
+	createContext,
+	useContext,
+} from "react";
 import useFetch from "../hooks/useFetch";
 
 type CategoryProviderProps = {

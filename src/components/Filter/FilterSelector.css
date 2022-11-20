@@ -16,4 +16,7 @@
 .theme-container select {
 	height: 25px;
 	padding: 2px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
 }

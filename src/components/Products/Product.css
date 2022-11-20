@@ -16,9 +16,10 @@
 	transition: all linear 500ms;
 	position: relative;
 }
-.product-container img {
+img {
 	height: 150px;
 	object-fit: contain;
+	justify-self: center;
 }
 
 .product-container p {

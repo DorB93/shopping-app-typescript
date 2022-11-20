@@ -1,0 +1,10 @@
+.copyrights-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+.copyrights-img{
+    height: 300px;
+    width: 300px;
+}
